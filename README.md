@@ -46,10 +46,6 @@ A few things to keep in mind:
 - The test set has only 38 women, 6 of whom have heart disease, so one patient changes female recall by about 0.17.
 - Fairlearn's predictions are randomized, so the saved notebook outputs for those rows differ slightly from the report.
 
-![Heart disease prevalence per category](images/07_group_disparity.png)
-
-![Logistic Regression feature impact, men vs. women](images/12_lr_feature_impact_by_sex.png)
-
 All 15 plots from the notebook are in the [`images/`](images/) folder.
 
 ## How to run
