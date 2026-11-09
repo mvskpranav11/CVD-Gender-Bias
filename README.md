@@ -42,9 +42,7 @@ Main takeaways:
 - Most methods raised female recall. Sample reweighting and SMOTE were the most consistent.
 - A small, well-chosen feature set (Pushing-4) gave the best female recall with a small gap.
 
-A few things to keep in mind:
-- The test set has only 38 women, 6 of whom have heart disease, so one patient changes female recall by about 0.17.
-- Fairlearn's predictions are randomized, so the saved notebook outputs for those rows differ slightly from the report.
+Note: the test set has only 38 women, 6 of whom have heart disease, so one patient changes female recall by about 0.17.
 
 All 15 plots from the notebook are in the [`images/`](images/) folder.
 
