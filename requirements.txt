@@ -1,0 +1,14 @@
+# Core data handling and plotting
+pandas>=2,<3
+numpy>=2,<3
+matplotlib>=3,<4
+seaborn>=0.13,<1
+scipy>=1,<2
+
+# Machine learning, resampling and fairness
+scikit-learn>=1,<2
+imbalanced-learn>=0.12,<1
+fairlearn>=0.10,<1
+
+# To open and run the notebook
+notebook>=7,<8
