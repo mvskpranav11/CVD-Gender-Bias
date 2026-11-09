@@ -48,6 +48,10 @@ A few things to keep in mind:
 
 All 15 plots from the notebook are in the [`images/`](images/) folder.
 
+## Conclusion
+
+The baseline models looked accurate overall but missed far more women than men with heart disease. This kind of bias only shows up when you evaluate each group separately. Most of the methods we tried narrowed the gap. Sample reweighting, SMOTE on female data, and a small, clinically chosen feature set worked best, and no single method was best for every model. The main limitation is the small number of women in the data (193 patients, only 6 positive cases in the test set). A larger and more balanced dataset would be needed before drawing strong conclusions.
+
 ## How to run
 
 ```bash
