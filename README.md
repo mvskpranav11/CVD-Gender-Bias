@@ -1,9 +1,5 @@
 # Gender-Aware Cardiovascular Disease Prediction
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-F7931E?logo=scikitlearn&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-
 This is our research internship (Forschungspraktikum) project from the M.Sc. Web and Data Science program at the University of Koblenz (March 2026).
 
 We looked at how heart disease prediction models treat male and female patients. Women make up only about 21% of the dataset, and the baseline models missed many more sick women than sick men. We then tried different ways to reduce that gap.
