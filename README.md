@@ -95,15 +95,30 @@ Source: report, Tables 6.2 and 6.3. An EO gap closer to 0 means the model is fai
 
 **Heart disease prevalence per category.** Women in this dataset have a much lower prevalence than men.
 
-![Group disparity](images/group_disparity.png)
+![Group disparity](images/07_group_disparity.png)
 
 **Cramér's V: categorical features vs. HeartDisease**
 
-![Cramér's V](images/cramers_v.png)
+![Cramér's V](images/09_cramers_v.png)
 
 **Logistic Regression feature impact, male vs. female model.** For example, `FastingBS` matters much more for women.
 
-![LR feature impact by sex](images/lr_feature_impact_by_sex.png)
+![LR feature impact by sex](images/12_lr_feature_impact_by_sex.png)
+
+### All plots
+
+All 15 plots from the notebook are saved in [`images/`](images/), numbered in notebook order:
+
+| # | Plot | # | Plot |
+|---|---|---|---|
+| 01 | [Outlier boxplots](images/01_outlier_boxplots.png) | 09 | [Cramér's V](images/09_cramers_v.png) |
+| 02 | [Target distribution](images/02_target_distribution.png) | 10 | [LR feature importance (global)](images/10_lr_global_importance.png) |
+| 03 | [Numeric feature distributions](images/03_numeric_distributions.png) | 11 | [RF permutation importance (global)](images/11_rf_permutation_importance.png) |
+| 04 | [Categorical feature counts](images/04_categorical_counts.png) | 12 | [LR feature impact, male vs. female](images/12_lr_feature_impact_by_sex.png) |
+| 05 | [Numeric features vs. HeartDisease](images/05_numeric_vs_target.png) | 13 | [RF feature importance, male vs. female](images/13_rf_feature_importance_by_sex.png) |
+| 06 | [Categorical features vs. HeartDisease](images/06_categorical_vs_target.png) | 14 | [LR sub-feature coefficients, male vs. female](images/14_lr_subfeature_coefficients_by_sex.png) |
+| 07 | [Group disparity](images/07_group_disparity.png) | 15 | [RF sub-feature importance, male vs. female](images/15_rf_subfeature_importance_by_sex.png) |
+| 08 | [Mutual information](images/08_mutual_information.png) | | |
 
 ## How to run
 
@@ -129,7 +144,7 @@ CVD-Gender-Bias/
 │   └── CVD_Analysis_Final.ipynb   # Full analysis with outputs
 ├── report/
 │   └── CVD_Report_Final.pdf       # Final project report (87 pages; student IDs removed from title page)
-└── images/                        # Plots used in this README
+└── images/                        # All 15 plots from the notebook
 ```
 
 ## Team & acknowledgements
